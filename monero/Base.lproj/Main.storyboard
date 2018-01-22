@@ -10,10 +10,10 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
+        <!--New Wallet-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="NewWallet" customModule="monero" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -92,10 +92,10 @@
             </objects>
             <point key="canvasLocation" x="-66.400000000000006" y="-598.65067466266873"/>
         </scene>
-        <!--View Controller-->
+        <!--Confirm Seed-->
         <scene sceneID="ZXZ-qq-412">
             <objects>
-                <viewController id="7Uo-ts-9xV" sceneMemberID="viewController">
+                <viewController id="7Uo-ts-9xV" customClass="ConfirmSeed" customModule="monero" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="2LN-e1-PjK">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -310,10 +310,10 @@
             </objects>
             <point key="canvasLocation" x="-58.399999999999999" y="171.36431784107947"/>
         </scene>
-        <!--View Controller-->
+        <!--Restore Seed-->
         <scene sceneID="LH2-Vb-DCj">
             <objects>
-                <viewController id="Zqo-pm-9WB" sceneMemberID="viewController">
+                <viewController id="Zqo-pm-9WB" customClass="RestoreSeed" customModule="monero" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="2st-iN-Png">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -387,10 +387,10 @@
             </objects>
             <point key="canvasLocation" x="728.79999999999995" y="174.96251874062969"/>
         </scene>
-        <!--View Controller-->
+        <!--Restore Keys-->
         <scene sceneID="iIS-If-Lc3">
             <objects>
-                <viewController id="Ovh-jV-VVb" sceneMemberID="viewController">
+                <viewController id="Ovh-jV-VVb" customClass="RestoreKeys" customModule="monero" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="ZAZ-u4-3Yw">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>

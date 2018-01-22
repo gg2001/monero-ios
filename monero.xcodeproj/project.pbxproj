@@ -14,6 +14,10 @@
 		C6065D332000A33500620A33 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C6065D312000A33500620A33 /* LaunchScreen.storyboard */; };
 		C6065D3E2000A33500620A33 /* moneroTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6065D3D2000A33500620A33 /* moneroTests.swift */; };
 		C6065D492000A33500620A33 /* moneroUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6065D482000A33500620A33 /* moneroUITests.swift */; };
+		C69893EE201624B900961940 /* NewWallet.swift in Sources */ = {isa = PBXBuildFile; fileRef = C69893ED201624B900961940 /* NewWallet.swift */; };
+		C69893F02016252900961940 /* ConfirmSeed.swift in Sources */ = {isa = PBXBuildFile; fileRef = C69893EF2016252900961940 /* ConfirmSeed.swift */; };
+		C69893F22016257300961940 /* RestoreSeed.swift in Sources */ = {isa = PBXBuildFile; fileRef = C69893F12016257300961940 /* RestoreSeed.swift */; };
+		C69893F42016259100961940 /* RestoreKeys.swift in Sources */ = {isa = PBXBuildFile; fileRef = C69893F32016259100961940 /* RestoreKeys.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +51,10 @@
 		C6065D442000A33500620A33 /* moneroUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = moneroUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C6065D482000A33500620A33 /* moneroUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = moneroUITests.swift; sourceTree = "<group>"; };
 		C6065D4A2000A33500620A33 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C69893ED201624B900961940 /* NewWallet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewWallet.swift; sourceTree = "<group>"; };
+		C69893EF2016252900961940 /* ConfirmSeed.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfirmSeed.swift; sourceTree = "<group>"; };
+		C69893F12016257300961940 /* RestoreSeed.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestoreSeed.swift; sourceTree = "<group>"; };
+		C69893F32016259100961940 /* RestoreKeys.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestoreKeys.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +108,10 @@
 				C6065D282000A33500620A33 /* AppDelegate.swift */,
 				C6065D2A2000A33500620A33 /* ViewController.swift */,
 				C6065D2C2000A33500620A33 /* Main.storyboard */,
+				C69893F32016259100961940 /* RestoreKeys.swift */,
+				C69893F12016257300961940 /* RestoreSeed.swift */,
+				C69893EF2016252900961940 /* ConfirmSeed.swift */,
+				C69893ED201624B900961940 /* NewWallet.swift */,
 				C6065D2F2000A33500620A33 /* Assets.xcassets */,
 				C6065D312000A33500620A33 /* LaunchScreen.storyboard */,
 				C6065D342000A33500620A33 /* Info.plist */,
@@ -259,8 +271,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C69893F42016259100961940 /* RestoreKeys.swift in Sources */,
+				C69893EE201624B900961940 /* NewWallet.swift in Sources */,
 				C6065D2B2000A33500620A33 /* ViewController.swift in Sources */,
 				C6065D292000A33500620A33 /* AppDelegate.swift in Sources */,
+				C69893F22016257300961940 /* RestoreSeed.swift in Sources */,
+				C69893F02016252900961940 /* ConfirmSeed.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
