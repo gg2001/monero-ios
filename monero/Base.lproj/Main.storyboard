@@ -120,6 +120,9 @@
                                 <rect key="frame" x="230" y="554" width="36" height="33"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <state key="normal" title="Next"/>
+                                <state key="disabled" title="Next">
+                                    <color key="titleColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="M01-lM-wuw">
                                 <rect key="frame" x="100" y="554" width="38" height="33"/>
@@ -517,9 +520,8 @@
         <image name="MoneroLogo" width="150" height="149"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="fdp-aG-icF"/>
-        <segue reference="Apj-pj-qLf"/>
-        <segue reference="Se5-gn-c8h"/>
-        <segue reference="D8v-d5-mBl"/>
+        <segue reference="InY-UJ-Rh9"/>
+        <segue reference="u48-ts-cYY"/>
+        <segue reference="4ge-7L-5aO"/>
     </inferredMetricsTieBreakers>
 </document>

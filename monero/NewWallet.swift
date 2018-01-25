@@ -37,7 +37,6 @@ class NewWallet: UIViewController {
             do {
                 // Load its contents to a String variable.
                 let jsSourceContents = try String(contentsOfFile: jsSourcePath)
-                
                 // Add the Javascript code that currently exists in the jsSourceContents to the Javascript Runtime through the jsContext object.
                 self.jsContext.evaluateScript(jsSourceContents)
             }
