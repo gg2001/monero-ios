@@ -7,15 +7,19 @@
 //
 
 import UIKit
-import JavaScriptCore
+import WebKit
 
 class NewWallet: UIViewController {
     
-    var jsContext: JSContext!
+    @IBOutlet weak var webView: WKWebView!
     
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        let htmlPath = Bundle.main.path(forResource: "addressgen", ofType: "html")
+        let request = URL(fileURLWithPath: htmlPath!, isDirectory: false)
+        webView.loadFileURL(request, allowingReadAccessTo: request)
+        
     }
     
     override func didReceiveMemoryWarning() {
@@ -23,32 +27,4 @@ class NewWallet: UIViewController {
         // Dispose of any resources that can be recreated.
     }
     
-    override func viewDidAppear(_ animated: Bool) {
-        super.viewDidAppear(animated)
-        
-        self.initializeJS()
-        self.helloWorld()
-    }
-    
-    func initializeJS() {
-        self.jsContext = JSContext()
-        
-        if let jsSourcePath = Bundle.main.path(forResource: "NewWallet", ofType: "js") {
-            do {
-                // Load its contents to a String variable.
-                let jsSourceContents = try String(contentsOfFile: jsSourcePath)
-                // Add the Javascript code that currently exists in the jsSourceContents to the Javascript Runtime through the jsContext object.
-                self.jsContext.evaluateScript(jsSourceContents)
-            }
-            catch {
-                print(error.localizedDescription)
-            }
-        }
-    }
-    
-    func helloWorld() {
-        if let variableHelloWorld = self.jsContext.objectForKeyedSubscript("helloWorld") {
-            print(variableHelloWorld.toString())
-        }
-    }
 }
