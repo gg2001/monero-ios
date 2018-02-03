@@ -56,7 +56,7 @@
                                 <rect key="frame" x="16" y="169" width="343" height="171"/>
                                 <color key="backgroundColor" red="0.36078431370000003" green="0.38823529410000002" blue="0.4039215686" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" constant="343" id="Pvy-U5-Dk2"/>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="343" id="Pvy-U5-Dk2"/>
                                     <constraint firstAttribute="height" constant="171" id="TsM-MX-tdr"/>
                                 </constraints>
                                 <wkWebViewConfiguration key="configuration">
@@ -72,13 +72,14 @@
                             <constraint firstItem="YG5-vR-r2B" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="53" id="Ci4-0C-YqO"/>
                             <constraint firstItem="ld8-lj-LnV" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="230" id="F7n-jF-42C"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="YG5-vR-r2B" secondAttribute="trailing" constant="71" id="F8d-U7-yK3"/>
-                            <constraint firstItem="71F-cw-7wb" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="GTZ-eG-yEb"/>
                             <constraint firstItem="l8H-Mm-kds" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="JD4-I5-0Hv"/>
                             <constraint firstItem="YG5-vR-r2B" firstAttribute="top" secondItem="l8H-Mm-kds" secondAttribute="bottom" constant="8" id="Jkf-4f-clv"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="ld8-lj-LnV" secondAttribute="trailing" constant="109" id="OTO-3g-eYO"/>
                             <constraint firstItem="aE8-QW-idj" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="120" id="PAn-U5-vGt"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="71F-cw-7wb" secondAttribute="trailing" constant="16" id="VQw-8g-ca8"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="ld8-lj-LnV" secondAttribute="bottom" constant="80" id="cXy-47-YSb"/>
                             <constraint firstItem="8O8-DI-edT" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="100" id="fvf-10-nH7"/>
+                            <constraint firstItem="71F-cw-7wb" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="ggD-ks-grQ"/>
                             <constraint firstItem="l8H-Mm-kds" firstAttribute="top" secondItem="71F-cw-7wb" secondAttribute="bottom" constant="20" id="iY5-p7-ySX"/>
                             <constraint firstItem="aE8-QW-idj" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="jtB-pt-P27"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="l8H-Mm-kds" secondAttribute="trailing" constant="16" id="lAv-NH-yI2"/>
@@ -108,16 +109,6 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="kbG-lO-0eW">
-                                <rect key="frame" x="16" y="170" width="343" height="170"/>
-                                <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="170" id="74b-Pc-Ezx"/>
-                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="343" id="dNd-E6-xeN"/>
-                                </constraints>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
-                            </textView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gUo-mj-q9H">
                                 <rect key="frame" x="230" y="554" width="36" height="33"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
@@ -147,6 +138,16 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="kbG-lO-0eW">
+                                <rect key="frame" x="16" y="170" width="343" height="170"/>
+                                <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="170" id="74b-Pc-Ezx"/>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="343" id="dNd-E6-xeN"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>

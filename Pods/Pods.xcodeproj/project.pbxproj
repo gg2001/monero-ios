@@ -1,0 +1,997 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		162758A0C8C47745F5EDFD2EA0D0EF2C /* Pods-moneroTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E77A9E4685F28D5ED2871B38DFAD7322 /* Pods-moneroTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4B253A6B250B3A893B66B644E8947ADC /* Pods-monero-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 29132F6506B80830784EF9F936DF5543 /* Pods-monero-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		59148252B8BCFF3EAE2B871FCBD679BC /* WKBridge.bundle in Resources */ = {isa = PBXBuildFile; fileRef = F583615D40C5EB2D8FC619A068C88835 /* WKBridge.bundle */; };
+		6A591F892752DE4E4E38BF0754EDCE4D /* Pods-moneroUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0211014E6C9F8CDEB09CE6636C355707 /* Pods-moneroUITests-dummy.m */; };
+		6A86B36DA4A382B16AE4D2E95153EC8D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 78303A97700CA406D0BCB9A42F086717 /* Foundation.framework */; };
+		6FBCB43BC7266AF727BDF155FD6BBDD5 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ACCF78C37CDFCFDEB7867B41FA44FA26 /* UIKit.framework */; };
+		73F7DABE2249B0AC3895AFC8B88A1EC7 /* Pods-monero-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A21846A8ED03C3A0B2A7887B0111076F /* Pods-monero-dummy.m */; };
+		A582917101AF402FDAC412BA48F0D420 /* Pods-moneroUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = BAF1CE13E746A341C68E778A7F36673B /* Pods-moneroUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B18044834F53E8E982B068CDD95492DD /* wk.bridge.min.js in Resources */ = {isa = PBXBuildFile; fileRef = AD540498323C3544D6AE1BA4AF8734AC /* wk.bridge.min.js */; };
+		B91FBEFC15CCAACAE47971FCB42F2AF9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 78303A97700CA406D0BCB9A42F086717 /* Foundation.framework */; };
+		BE02224CE94A06062CCB40222CBF777A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 78303A97700CA406D0BCB9A42F086717 /* Foundation.framework */; };
+		BFFCEB6CAE4D00A5B551B667DE59B72B /* Pods-moneroTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 16A6F8AA76E4EEE825B5B337991B46FA /* Pods-moneroTests-dummy.m */; };
+		D0CD7D1F612B741AD9A3B74F1CAB377A /* WKBridge-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 04C652B0BADCBA714446B523FCE648CD /* WKBridge-dummy.m */; };
+		F2AAA3E69AA2821F16C54201B1C24B6F /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BAB14A55D4DB30C8D98DB7528D9807F4 /* WebKit.framework */; };
+		F34DCC64900D33AA86DDD3DFBB79F6CA /* WKBridge-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 585E7874B8EEF26A7CA0DC53B6447F96 /* WKBridge-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F4963ECD0F4CA682529E38F0BC488D55 /* Bridge.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DBE56F44EC0B09CC43E4B68748BE6D9 /* Bridge.swift */; };
+		F681CAFD6ACB7E01671B9E3CBDC640B3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 78303A97700CA406D0BCB9A42F086717 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6CDE52E0B8B80282C87B670497CEABCA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3ECAA849B2F21C64355DCF57A3CED81E;
+			remoteInfo = WKBridge;
+		};
+		870B173994DCC1F457E24EC1EC2226B4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 44EEDCF41521E4FA94FBDAEF89D00EDB;
+			remoteInfo = "WKBridge-WKBridge";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0008602861010EB15661FCA55D90AD08 /* Pods-moneroUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-moneroUITests-frameworks.sh"; sourceTree = "<group>"; };
+		0211014E6C9F8CDEB09CE6636C355707 /* Pods-moneroUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-moneroUITests-dummy.m"; sourceTree = "<group>"; };
+		04C652B0BADCBA714446B523FCE648CD /* WKBridge-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "WKBridge-dummy.m"; sourceTree = "<group>"; };
+		0F27C857423D71FED5A855282C963B86 /* Pods-monero-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-monero-acknowledgements.plist"; sourceTree = "<group>"; };
+		1082B38F116FFC0299EEE9FAA7C6A66D /* WKBridge.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = WKBridge.framework; path = WKBridge.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		12372D0FAF8C92D733B8D8CB1CF4FD3B /* WKBridge-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "WKBridge-prefix.pch"; sourceTree = "<group>"; };
+		154A6DB36059F106786D9DD401F10060 /* Pods-moneroTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-moneroTests.modulemap"; sourceTree = "<group>"; };
+		16A6F8AA76E4EEE825B5B337991B46FA /* Pods-moneroTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-moneroTests-dummy.m"; sourceTree = "<group>"; };
+		180018D2D70F870C7877E94E93A09EAF /* Pods-moneroTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-moneroTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		19052C4ADF9D24395A0C752D111611DC /* Pods-moneroTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-moneroTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		1D5E753516CC5093B238D31706E51D46 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1DBE56F44EC0B09CC43E4B68748BE6D9 /* Bridge.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Bridge.swift; path = WKBridge/Classes/Bridge.swift; sourceTree = "<group>"; };
+		29132F6506B80830784EF9F936DF5543 /* Pods-monero-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-monero-umbrella.h"; sourceTree = "<group>"; };
+		3738234AC221581B2B62A0C627F977AB /* Pods-moneroTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-moneroTests-resources.sh"; sourceTree = "<group>"; };
+		3999D85A9A6B538D84E035CD8CE73213 /* Pods-monero.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-monero.release.xcconfig"; sourceTree = "<group>"; };
+		41B30B28DB8E6FEC70BF3904BF97A86E /* Pods_moneroTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_moneroTests.framework; path = "Pods-moneroTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		585E7874B8EEF26A7CA0DC53B6447F96 /* WKBridge-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "WKBridge-umbrella.h"; sourceTree = "<group>"; };
+		5C54ECC26908EDA2285661CD292D45C0 /* Pods-monero-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-monero-acknowledgements.markdown"; sourceTree = "<group>"; };
+		615582028B1BF5AF4768D6C04F52B00D /* Pods_monero.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_monero.framework; path = "Pods-monero.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6717E5F8CA7DA3677F9D2F473C07F4F5 /* Pods-moneroUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-moneroUITests.modulemap"; sourceTree = "<group>"; };
+		6E275D4D4A479FD9E9A3FA3C44193D4E /* Pods-moneroUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-moneroUITests.release.xcconfig"; sourceTree = "<group>"; };
+		7485883D8DB37FCADA19C188208FBEE2 /* Pods-moneroUITests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-moneroUITests-resources.sh"; sourceTree = "<group>"; };
+		78303A97700CA406D0BCB9A42F086717 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		78C19F28E31DCBB3947ECA2FD71291C1 /* Pods-moneroTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-moneroTests-frameworks.sh"; sourceTree = "<group>"; };
+		8326A3266DA1636AD106124ABE57DBCA /* Pods-monero.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-monero.modulemap"; sourceTree = "<group>"; };
+		887D4F4A1A0F2F7D22F8CD1D04345756 /* Pods-monero-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-monero-resources.sh"; sourceTree = "<group>"; };
+		88F31616A5307E6E50B4F243CA9D21AA /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		94FDD842D88B1999D94B4F56E481C991 /* Pods-moneroUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-moneroUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		97AE95E1D8D901D16A89962032EB037C /* Pods-monero-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-monero-frameworks.sh"; sourceTree = "<group>"; };
+		9DDB2A1FAD3D20BDFB2995602F7E48E1 /* Pods-monero.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-monero.debug.xcconfig"; sourceTree = "<group>"; };
+		A21846A8ED03C3A0B2A7887B0111076F /* Pods-monero-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-monero-dummy.m"; sourceTree = "<group>"; };
+		AAF25599D35A3D4F250D156377D3D6BE /* Pods_moneroUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_moneroUITests.framework; path = "Pods-moneroUITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		ACCF78C37CDFCFDEB7867B41FA44FA26 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		AD540498323C3544D6AE1BA4AF8734AC /* wk.bridge.min.js */ = {isa = PBXFileReference; includeInIndex = 1; name = wk.bridge.min.js; path = WKBridge/Assets/wk.bridge.min.js; sourceTree = "<group>"; };
+		B4956F6E96471739F9DA8992B8969058 /* WKBridge.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = WKBridge.modulemap; sourceTree = "<group>"; };
+		B4A557B55DA7083657A5B0EA4B613A03 /* Pods-moneroUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-moneroUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		BAB14A55D4DB30C8D98DB7528D9807F4 /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/WebKit.framework; sourceTree = DEVELOPER_DIR; };
+		BAF1CE13E746A341C68E778A7F36673B /* Pods-moneroUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-moneroUITests-umbrella.h"; sourceTree = "<group>"; };
+		CBC170F53C57B89AE3985A5D85017C4C /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CE13008918F12F06E5A05A4D916A20D7 /* Pods-moneroTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-moneroTests.debug.xcconfig"; sourceTree = "<group>"; };
+		E5CE155EA8E2A55EE39ECF42324FB777 /* ResourceBundle-WKBridge-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-WKBridge-Info.plist"; sourceTree = "<group>"; };
+		E5DF97595E383C10A82E60C6DDB59330 /* WKBridge.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = WKBridge.xcconfig; sourceTree = "<group>"; };
+		E72D5C51D50BEB4D3F815D9E3A823B49 /* Pods-moneroTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-moneroTests.release.xcconfig"; sourceTree = "<group>"; };
+		E77A9E4685F28D5ED2871B38DFAD7322 /* Pods-moneroTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-moneroTests-umbrella.h"; sourceTree = "<group>"; };
+		F583615D40C5EB2D8FC619A068C88835 /* WKBridge.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = WKBridge.bundle; path = "WKBridge-WKBridge.bundle"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FAEDBDF8522809D257DDF66AA15357A0 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FE5E7BAAC762948D2236E4F36765CBF2 /* Pods-moneroUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-moneroUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3485DEDC419E070A08132EDE71DC6B5E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B91FBEFC15CCAACAE47971FCB42F2AF9 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5E956CB530D9ABFBEDF640FC1AC75462 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8DE3C2B5B882BBE84799D72F27457CAB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE02224CE94A06062CCB40222CBF777A /* Foundation.framework in Frameworks */,
+				6FBCB43BC7266AF727BDF155FD6BBDD5 /* UIKit.framework in Frameworks */,
+				F2AAA3E69AA2821F16C54201B1C24B6F /* WebKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A3F171043B55CAA2E214D8D43C29DC35 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F681CAFD6ACB7E01671B9E3CBDC640B3 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D8433281886C231C48562E79265CDB45 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6A86B36DA4A382B16AE4D2E95153EC8D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		122DA2E5084A4393C29BE363C764795C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3D21A80A7717CA9FF6F518C4E1DFB9D0 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		12A5F2273C1565976A53F1F434D9D14B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3D25B715BAB74EC81EC3318917BF4FEF /* WKBridge */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		17840402B5F4A8087FCED8FA14C87EF8 /* Pods-moneroTests */ = {
+			isa = PBXGroup;
+			children = (
+				1D5E753516CC5093B238D31706E51D46 /* Info.plist */,
+				154A6DB36059F106786D9DD401F10060 /* Pods-moneroTests.modulemap */,
+				180018D2D70F870C7877E94E93A09EAF /* Pods-moneroTests-acknowledgements.markdown */,
+				19052C4ADF9D24395A0C752D111611DC /* Pods-moneroTests-acknowledgements.plist */,
+				16A6F8AA76E4EEE825B5B337991B46FA /* Pods-moneroTests-dummy.m */,
+				78C19F28E31DCBB3947ECA2FD71291C1 /* Pods-moneroTests-frameworks.sh */,
+				3738234AC221581B2B62A0C627F977AB /* Pods-moneroTests-resources.sh */,
+				E77A9E4685F28D5ED2871B38DFAD7322 /* Pods-moneroTests-umbrella.h */,
+				CE13008918F12F06E5A05A4D916A20D7 /* Pods-moneroTests.debug.xcconfig */,
+				E72D5C51D50BEB4D3F815D9E3A823B49 /* Pods-moneroTests.release.xcconfig */,
+			);
+			name = "Pods-moneroTests";
+			path = "Target Support Files/Pods-moneroTests";
+			sourceTree = "<group>";
+		};
+		322EE108FE840D1C3AD584265D72FB0E /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				AD540498323C3544D6AE1BA4AF8734AC /* wk.bridge.min.js */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		3D21A80A7717CA9FF6F518C4E1DFB9D0 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				78303A97700CA406D0BCB9A42F086717 /* Foundation.framework */,
+				ACCF78C37CDFCFDEB7867B41FA44FA26 /* UIKit.framework */,
+				BAB14A55D4DB30C8D98DB7528D9807F4 /* WebKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		3D25B715BAB74EC81EC3318917BF4FEF /* WKBridge */ = {
+			isa = PBXGroup;
+			children = (
+				1DBE56F44EC0B09CC43E4B68748BE6D9 /* Bridge.swift */,
+				322EE108FE840D1C3AD584265D72FB0E /* Resources */,
+				F837FC5B03E907985E3DAF2CB0098752 /* Support Files */,
+			);
+			name = WKBridge;
+			path = WKBridge;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				122DA2E5084A4393C29BE363C764795C /* Frameworks */,
+				12A5F2273C1565976A53F1F434D9D14B /* Pods */,
+				84F2D6BCDD9B45D0603C33FAD2DF6617 /* Products */,
+				B8F39AC4D1778D6A8CDBD37A70D03D27 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		84F2D6BCDD9B45D0603C33FAD2DF6617 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				615582028B1BF5AF4768D6C04F52B00D /* Pods_monero.framework */,
+				41B30B28DB8E6FEC70BF3904BF97A86E /* Pods_moneroTests.framework */,
+				AAF25599D35A3D4F250D156377D3D6BE /* Pods_moneroUITests.framework */,
+				F583615D40C5EB2D8FC619A068C88835 /* WKBridge.bundle */,
+				1082B38F116FFC0299EEE9FAA7C6A66D /* WKBridge.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		97929420D0762E1C44286F2736DF6F0B /* Pods-monero */ = {
+			isa = PBXGroup;
+			children = (
+				FAEDBDF8522809D257DDF66AA15357A0 /* Info.plist */,
+				8326A3266DA1636AD106124ABE57DBCA /* Pods-monero.modulemap */,
+				5C54ECC26908EDA2285661CD292D45C0 /* Pods-monero-acknowledgements.markdown */,
+				0F27C857423D71FED5A855282C963B86 /* Pods-monero-acknowledgements.plist */,
+				A21846A8ED03C3A0B2A7887B0111076F /* Pods-monero-dummy.m */,
+				97AE95E1D8D901D16A89962032EB037C /* Pods-monero-frameworks.sh */,
+				887D4F4A1A0F2F7D22F8CD1D04345756 /* Pods-monero-resources.sh */,
+				29132F6506B80830784EF9F936DF5543 /* Pods-monero-umbrella.h */,
+				9DDB2A1FAD3D20BDFB2995602F7E48E1 /* Pods-monero.debug.xcconfig */,
+				3999D85A9A6B538D84E035CD8CE73213 /* Pods-monero.release.xcconfig */,
+			);
+			name = "Pods-monero";
+			path = "Target Support Files/Pods-monero";
+			sourceTree = "<group>";
+		};
+		B8F39AC4D1778D6A8CDBD37A70D03D27 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				97929420D0762E1C44286F2736DF6F0B /* Pods-monero */,
+				17840402B5F4A8087FCED8FA14C87EF8 /* Pods-moneroTests */,
+				FBE38418E079CAA128D8677F74311588 /* Pods-moneroUITests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		F837FC5B03E907985E3DAF2CB0098752 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				CBC170F53C57B89AE3985A5D85017C4C /* Info.plist */,
+				E5CE155EA8E2A55EE39ECF42324FB777 /* ResourceBundle-WKBridge-Info.plist */,
+				B4956F6E96471739F9DA8992B8969058 /* WKBridge.modulemap */,
+				E5DF97595E383C10A82E60C6DDB59330 /* WKBridge.xcconfig */,
+				04C652B0BADCBA714446B523FCE648CD /* WKBridge-dummy.m */,
+				12372D0FAF8C92D733B8D8CB1CF4FD3B /* WKBridge-prefix.pch */,
+				585E7874B8EEF26A7CA0DC53B6447F96 /* WKBridge-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/WKBridge";
+			sourceTree = "<group>";
+		};
+		FBE38418E079CAA128D8677F74311588 /* Pods-moneroUITests */ = {
+			isa = PBXGroup;
+			children = (
+				88F31616A5307E6E50B4F243CA9D21AA /* Info.plist */,
+				6717E5F8CA7DA3677F9D2F473C07F4F5 /* Pods-moneroUITests.modulemap */,
+				FE5E7BAAC762948D2236E4F36765CBF2 /* Pods-moneroUITests-acknowledgements.markdown */,
+				B4A557B55DA7083657A5B0EA4B613A03 /* Pods-moneroUITests-acknowledgements.plist */,
+				0211014E6C9F8CDEB09CE6636C355707 /* Pods-moneroUITests-dummy.m */,
+				0008602861010EB15661FCA55D90AD08 /* Pods-moneroUITests-frameworks.sh */,
+				7485883D8DB37FCADA19C188208FBEE2 /* Pods-moneroUITests-resources.sh */,
+				BAF1CE13E746A341C68E778A7F36673B /* Pods-moneroUITests-umbrella.h */,
+				94FDD842D88B1999D94B4F56E481C991 /* Pods-moneroUITests.debug.xcconfig */,
+				6E275D4D4A479FD9E9A3FA3C44193D4E /* Pods-moneroUITests.release.xcconfig */,
+			);
+			name = "Pods-moneroUITests";
+			path = "Target Support Files/Pods-moneroUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		0644D44AE101FFFD6E754A72703E23AD /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A582917101AF402FDAC412BA48F0D420 /* Pods-moneroUITests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2FF47F2B2A306DB2AF33C22645FC03C1 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F34DCC64900D33AA86DDD3DFBB79F6CA /* WKBridge-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4D1D5887130AE4996CBA1A6EAD8FBDC3 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				162758A0C8C47745F5EDFD2EA0D0EF2C /* Pods-moneroTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B8A130FDFA9CC5F6E0824D99BAA2739A /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4B253A6B250B3A893B66B644E8947ADC /* Pods-monero-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		3547594EF40AD73DC6257A07C5AB6D08 /* Pods-monero */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B3D2674DF291D103780EC502A3D8F33F /* Build configuration list for PBXNativeTarget "Pods-monero" */;
+			buildPhases = (
+				A4F58CE4570EA89C4C4EE3AA1F87C3E4 /* Sources */,
+				3485DEDC419E070A08132EDE71DC6B5E /* Frameworks */,
+				B8A130FDFA9CC5F6E0824D99BAA2739A /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7BD9DEF8346BFC07727DDFCE627F0E31 /* PBXTargetDependency */,
+			);
+			name = "Pods-monero";
+			productName = "Pods-monero";
+			productReference = 615582028B1BF5AF4768D6C04F52B00D /* Pods_monero.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		3881EE8EDA2C58819BCDBBE0BA4D9A7A /* Pods-moneroUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9BD98B4B06523D89320C689356C82425 /* Build configuration list for PBXNativeTarget "Pods-moneroUITests" */;
+			buildPhases = (
+				9FE3F74691A226E3C6607303E72A6D8E /* Sources */,
+				D8433281886C231C48562E79265CDB45 /* Frameworks */,
+				0644D44AE101FFFD6E754A72703E23AD /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-moneroUITests";
+			productName = "Pods-moneroUITests";
+			productReference = AAF25599D35A3D4F250D156377D3D6BE /* Pods_moneroUITests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		3ECAA849B2F21C64355DCF57A3CED81E /* WKBridge */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6DCD354E8457AB5378EC16DA231D391F /* Build configuration list for PBXNativeTarget "WKBridge" */;
+			buildPhases = (
+				69F77DC06102CF0601354DED0BCFB5A2 /* Sources */,
+				8DE3C2B5B882BBE84799D72F27457CAB /* Frameworks */,
+				0923D7F84733E529708FEE431C63A2D6 /* Resources */,
+				2FF47F2B2A306DB2AF33C22645FC03C1 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				457909938C5724849EE4B5CCA471EB8D /* PBXTargetDependency */,
+			);
+			name = WKBridge;
+			productName = WKBridge;
+			productReference = 1082B38F116FFC0299EEE9FAA7C6A66D /* WKBridge.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		44EEDCF41521E4FA94FBDAEF89D00EDB /* WKBridge-WKBridge */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4AE60708E05D306D72EAE8227A1EA8A2 /* Build configuration list for PBXNativeTarget "WKBridge-WKBridge" */;
+			buildPhases = (
+				D9E1776DC700DC86D8ABD3E24E48784B /* Sources */,
+				5E956CB530D9ABFBEDF640FC1AC75462 /* Frameworks */,
+				6B498CA69A52BC9C52AB4BA8D2373293 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "WKBridge-WKBridge";
+			productName = "WKBridge-WKBridge";
+			productReference = F583615D40C5EB2D8FC619A068C88835 /* WKBridge.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+		889260D5943DB58C78100E3E5F4D96E2 /* Pods-moneroTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 68261409EB123F00086AC9B24AE92FD7 /* Build configuration list for PBXNativeTarget "Pods-moneroTests" */;
+			buildPhases = (
+				A579C241185D841D0442C448FC6CD662 /* Sources */,
+				A3F171043B55CAA2E214D8D43C29DC35 /* Frameworks */,
+				4D1D5887130AE4996CBA1A6EAD8FBDC3 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-moneroTests";
+			productName = "Pods-moneroTests";
+			productReference = 41B30B28DB8E6FEC70BF3904BF97A86E /* Pods_moneroTests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 84F2D6BCDD9B45D0603C33FAD2DF6617 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3547594EF40AD73DC6257A07C5AB6D08 /* Pods-monero */,
+				889260D5943DB58C78100E3E5F4D96E2 /* Pods-moneroTests */,
+				3881EE8EDA2C58819BCDBBE0BA4D9A7A /* Pods-moneroUITests */,
+				3ECAA849B2F21C64355DCF57A3CED81E /* WKBridge */,
+				44EEDCF41521E4FA94FBDAEF89D00EDB /* WKBridge-WKBridge */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0923D7F84733E529708FEE431C63A2D6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				59148252B8BCFF3EAE2B871FCBD679BC /* WKBridge.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6B498CA69A52BC9C52AB4BA8D2373293 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B18044834F53E8E982B068CDD95492DD /* wk.bridge.min.js in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		69F77DC06102CF0601354DED0BCFB5A2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F4963ECD0F4CA682529E38F0BC488D55 /* Bridge.swift in Sources */,
+				D0CD7D1F612B741AD9A3B74F1CAB377A /* WKBridge-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9FE3F74691A226E3C6607303E72A6D8E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6A591F892752DE4E4E38BF0754EDCE4D /* Pods-moneroUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A4F58CE4570EA89C4C4EE3AA1F87C3E4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				73F7DABE2249B0AC3895AFC8B88A1EC7 /* Pods-monero-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A579C241185D841D0442C448FC6CD662 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BFFCEB6CAE4D00A5B551B667DE59B72B /* Pods-moneroTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D9E1776DC700DC86D8ABD3E24E48784B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		457909938C5724849EE4B5CCA471EB8D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "WKBridge-WKBridge";
+			target = 44EEDCF41521E4FA94FBDAEF89D00EDB /* WKBridge-WKBridge */;
+			targetProxy = 870B173994DCC1F457E24EC1EC2226B4 /* PBXContainerItemProxy */;
+		};
+		7BD9DEF8346BFC07727DDFCE627F0E31 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = WKBridge;
+			target = 3ECAA849B2F21C64355DCF57A3CED81E /* WKBridge */;
+			targetProxy = 6CDE52E0B8B80282C87B670497CEABCA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1934A9EF996A260C420001A834561A92 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9DDB2A1FAD3D20BDFB2995602F7E48E1 /* Pods-monero.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-monero/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-monero/Pods-monero.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_monero;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		1F30DC98FF56F8881216CD89D1623BD0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E5DF97595E383C10A82E60C6DDB59330 /* WKBridge.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/WKBridge/WKBridge-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/WKBridge/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/WKBridge/WKBridge.modulemap";
+				PRODUCT_NAME = WKBridge;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		21D2BD78A444B93105DA89ABD6B2FDAC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6E275D4D4A479FD9E9A3FA3C44193D4E /* Pods-moneroUITests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-moneroUITests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-moneroUITests/Pods-moneroUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_moneroUITests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		31C4EA1153AC26C3548A4EF7735EA4D5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E5DF97595E383C10A82E60C6DDB59330 /* WKBridge.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/WKBridge";
+				INFOPLIST_FILE = "Target Support Files/WKBridge/ResourceBundle-WKBridge-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_NAME = WKBridge;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		323A24856F1A4871A780301AF5C02A2A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		3394AFE7F73061D384842D5CA2D8CEC4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E5DF97595E383C10A82E60C6DDB59330 /* WKBridge.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/WKBridge";
+				INFOPLIST_FILE = "Target Support Files/WKBridge/ResourceBundle-WKBridge-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_NAME = WKBridge;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		4062F09B4C13F6051A4F80021FF89EFB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 94FDD842D88B1999D94B4F56E481C991 /* Pods-moneroUITests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-moneroUITests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-moneroUITests/Pods-moneroUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_moneroUITests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		B7EC2F531A1C2AADDECA2B8B3CDF4EB0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E72D5C51D50BEB4D3F815D9E3A823B49 /* Pods-moneroTests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-moneroTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-moneroTests/Pods-moneroTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_moneroTests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		CA33F186435244FD0FD5B7325332656C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		EA0ED2B4AF12CE6208720B610608435E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CE13008918F12F06E5A05A4D916A20D7 /* Pods-moneroTests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-moneroTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-moneroTests/Pods-moneroTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_moneroTests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		F188554FB1865BBA3A86889EB687D8FD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3999D85A9A6B538D84E035CD8CE73213 /* Pods-monero.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-monero/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-monero/Pods-monero.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_monero;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		F8FC771B04D791F6C1803CC35DD44837 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E5DF97595E383C10A82E60C6DDB59330 /* WKBridge.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/WKBridge/WKBridge-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/WKBridge/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/WKBridge/WKBridge.modulemap";
+				PRODUCT_NAME = WKBridge;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				323A24856F1A4871A780301AF5C02A2A /* Debug */,
+				CA33F186435244FD0FD5B7325332656C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4AE60708E05D306D72EAE8227A1EA8A2 /* Build configuration list for PBXNativeTarget "WKBridge-WKBridge" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				31C4EA1153AC26C3548A4EF7735EA4D5 /* Debug */,
+				3394AFE7F73061D384842D5CA2D8CEC4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		68261409EB123F00086AC9B24AE92FD7 /* Build configuration list for PBXNativeTarget "Pods-moneroTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA0ED2B4AF12CE6208720B610608435E /* Debug */,
+				B7EC2F531A1C2AADDECA2B8B3CDF4EB0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6DCD354E8457AB5378EC16DA231D391F /* Build configuration list for PBXNativeTarget "WKBridge" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1F30DC98FF56F8881216CD89D1623BD0 /* Debug */,
+				F8FC771B04D791F6C1803CC35DD44837 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9BD98B4B06523D89320C689356C82425 /* Build configuration list for PBXNativeTarget "Pods-moneroUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4062F09B4C13F6051A4F80021FF89EFB /* Debug */,
+				21D2BD78A444B93105DA89ABD6B2FDAC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B3D2674DF291D103780EC502A3D8F33F /* Build configuration list for PBXNativeTarget "Pods-monero" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1934A9EF996A260C420001A834561A92 /* Debug */,
+				F188554FB1865BBA3A86889EB687D8FD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
